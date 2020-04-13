@@ -1,0 +1,90 @@
+.page_header{
+  background-color: #007bff;
+  margin-bottom: 5%;
+  box-shadow: 2px 2px 8px lightgrey;
+  padding: 4%;
+  color: white;
+}
+.main_content{
+  box-shadow: 2px 2px 8px lightgrey;
+  margin-bottom: 5%;
+  color: grey;
+  padding: 3%;
+}
+.packages_info{
+  width: 100%;
+}
+.logsingform{
+  width: 280px;
+}
+.package{
+  width: 100%;
+  transition: 0.1s;
+  padding:0.5%;
+  color: grey;
+  border-bottom: 1px solid lightgrey;
+}
+.name{
+  width:45%;
+}
+.user_info{
+  padding: 4%;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+.package:hover{
+  background-color: #f8f9fa;
+  color: grey;
+  text-decoration: none;
+}
+.add_button{
+  margin: 2%;
+}
+.footer_content{
+  border-top: 1px solid lightgrey;
+  height: 100px;
+  color: lightgrey;
+}
+form{
+  width: 100%;
+}
+form input{
+  border: 0.5px solid lightgrey;
+  padding: 6px;
+  border-radius: 5px;
+  width: 80%;
+}
+#info{
+  font-size: 0.8em;
+  color: red;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px 2px lightgrey;
+    color:black;
+    font-size: 1.2em;
+}
+#fronFlashCard{
+    position: absolute;
+    width: 15em;
+    height: 200px;
+    background-color: white;
+}
+#backFlashCard{
+    width: 15em;
+    height: 200px;
+    background-color: white;
+}
+#pBar{
+  margin: 3% 3% 3% 3%;
+  height: 5px;
+}
+.button{
+  width: 20em;
+}
+.interface{
+    width: 100%;
+    margin-bottom: 3%;
+}

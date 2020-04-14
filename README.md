@@ -39,12 +39,12 @@ Opis plików i folderów:
      - pAdd.pa.php -> skrypt do edycji pakietu
      - pDelete.pa.php -> skrypt do usuwania pakietu
 
-    - footer.php -> stopka witryny
-    - game.php -> skrypt js i php zawierającego aplikację do ficzek 
-    - header.php -> nagłówek strony
-    - index.php -> główna strona z elementami potrzebnymi do logowania
-    - packageEdition.php -> wyswietla stronę z formularzem do edycji pakietu
-    - singup.php -> strona do rejestracji użytkowików
-    - userpanel.php -> wyświetla pakiety danego uzytkownika i jego profil
+  - footer.php -> stopka witryny
+  - game.php -> skrypt js i php zawierającego aplikację do ficzek 
+  - header.php -> nagłówek strony
+  - index.php -> główna strona z elementami potrzebnymi do logowania
+  - packageEdition.php -> wyswietla stronę z formularzem do edycji pakietu
+  - singup.php -> strona do rejestracji użytkowików
+  - userpanel.php -> wyświetla pakiety danego uzytkownika i jego profil
 
 ##############################################################################################

@@ -1,6 +1,8 @@
 ###############################################################################################
 
 # 2020_vocabulary_language
+
+Witryna do nauki języka angielskiego.
 Program powstał z wykorzystaniem oprogramowania XAMPP. 
 Hostowana była na nim baza danych oraz służył do administrowania zbiorem użytkowników.
 
@@ -33,18 +35,18 @@ Opis plików i folderów:
       - checkPassword.js -> sprawdzanie poprawności hasła
 
   - paction -> akcje pakietów (dodawanie, usuwanie i aktualizowanie słówek w bazie)
-     - scripts -> skrypty aktualizujące danei w bazie
+     - scripts -> skrypty aktualizujące dane w bazie
        - widpackage.pa.scr.php -> skrypt do wpisywanie do bazy nowego pakietu
        - woidpackage.pa.scr.php -> skrypt do aktualizowania pakietu
      - pAdd.pa.php -> skrypt do edycji pakietu
      - pDelete.pa.php -> skrypt do usuwania pakietu
 
   - footer.php -> stopka witryny
-  - game.php -> skrypt js i php zawierającego aplikację do ficzek 
+  - game.php -> skrypt js i php zawierającego aplikację do fiszek 
   - header.php -> nagłówek strony
   - index.php -> główna strona z elementami potrzebnymi do logowania
   - packageEdition.php -> wyswietla stronę z formularzem do edycji pakietu
   - singup.php -> strona do rejestracji użytkowików
-  - userpanel.php -> wyświetla pakiety danego uzytkownika i jego profil
+  - userpanel.php -> wyświetla pakiety danego użytkownika i jego profil
 
 ##############################################################################################

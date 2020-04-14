@@ -19,25 +19,25 @@ Opis plików i folderów:
      style.css -> arkusz styli css całego projektu
 
   - includes ->pliki wykonywane przez formularze i wykonujące poboczne zadania
-     dbh.inc.php -> połączenie z bazą danych
-     login.inc.php -> logowanie użytkowanika
-     logout.inc.php -> wylogowanie użytkownika
-     packageButtoms.inc.php -> ładowanie pakietów użytkownika
-     packageStock.inc.php -> ładowanie słowek do edycji z danego pakietu
-     singup.inc.php -> rejestracja użytkowika
+     - dbh.inc.php -> połączenie z bazą danych
+     - login.inc.php -> logowanie użytkowanika
+     - logout.inc.php -> wylogowanie użytkownika
+     - packageButtoms.inc.php -> ładowanie pakietów użytkownika
+     - packageStock.inc.php -> ładowanie słowek do edycji z danego pakietu
+     - singup.inc.php -> rejestracja użytkowika
 
    - js -> pliki js
       - errors -> folder kontroli błędów
-         errors.err.js -> kontrala błędów przy rejestracji i logowaniu    
-    addElem.js -> dodawanie kolejnego pola do wspisywania słowa przy edycji pakietu 
-    checkPassword.js -> sprawdzanie poprawności hasła
+        - errors.err.js -> kontrala błędów przy rejestracji i logowaniu    
+    - addElem.js -> dodawanie kolejnego pola do wspisywania słowa przy edycji pakietu 
+    - checkPassword.js -> sprawdzanie poprawności hasła
 
   - paction -> akcje pakietów (dodawanie, usuwanie i aktualizowanie słówek w bazie)
      - scripts -> skrypty aktualizujące danei w bazie
-        widpackage.pa.scr.php -> skrypt do wpisywanie do bazy nowego pakietu
-        woidpackage.pa.scr.php -> skrypt do aktualizowania pakietu
-     pAdd.pa.php -> skrypt do edycji pakietu
-     pDelete.pa.php -> skrypt do usuwania pakietu
+       - widpackage.pa.scr.php -> skrypt do wpisywanie do bazy nowego pakietu
+       - woidpackage.pa.scr.php -> skrypt do aktualizowania pakietu
+     - pAdd.pa.php -> skrypt do edycji pakietu
+     - pDelete.pa.php -> skrypt do usuwania pakietu
 
 - footer.php -> stopka witryny
 - game.php -> skrypt js i php zawierającego aplikację do ficzek 

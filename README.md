@@ -16,7 +16,7 @@ Wykorzystane technologie:
 Opis plików i folderów:
 - project_php_vocabulary_learning
   - css
-     style.css -> arkusz styli css całego projektu
+     - style.css -> arkusz styli css całego projektu
 
   - includes ->pliki wykonywane przez formularze i wykonujące poboczne zadania
      - dbh.inc.php -> połączenie z bazą danych

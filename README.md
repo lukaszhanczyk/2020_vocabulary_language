@@ -29,8 +29,8 @@ Opis plików i folderów:
    - js -> pliki js
       - errors -> folder kontroli błędów
         - errors.err.js -> kontrala błędów przy rejestracji i logowaniu    
-    - addElem.js -> dodawanie kolejnego pola do wspisywania słowa przy edycji pakietu 
-    - checkPassword.js -> sprawdzanie poprawności hasła
+      - addElem.js -> dodawanie kolejnego pola do wspisywania słowa przy edycji pakietu 
+      - checkPassword.js -> sprawdzanie poprawności hasła
 
   - paction -> akcje pakietów (dodawanie, usuwanie i aktualizowanie słówek w bazie)
      - scripts -> skrypty aktualizujące danei w bazie

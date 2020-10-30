@@ -1,52 +1,50 @@
-###############################################################################################
+####################################################
 
 # 2020_vocabulary_language
 
-Witryna do nauki języka angielskiego.
-Program powstał z wykorzystaniem oprogramowania XAMPP. 
-Hostowana była na nim baza danych oraz służył do administrowania zbiorem użytkowników.
+Website for learning English.
+The program was created using the XAMPP software.
+It hosted the database and was used to administer the set of users.
 
-###############################################################################################
+####################################################
 
-Wykorzystane technologie:
+Technologies used:
 - CSS3
 - JavaScript
 - PHP
 
-###############################################################################################
+####################################################
 
-Opis plików i folderów:
+Description of files and folders:
 - project_php_vocabulary_learning
   - css
-     - style.css -> arkusz styli css całego projektu
+     - style.css -> css style sheet for the whole project
 
-  - includes ->pliki wykonywane przez formularze i wykonujące poboczne zadania
-     - dbh.inc.php -> połączenie z bazą danych
-     - login.inc.php -> logowanie użytkowanika
-     - logout.inc.php -> wylogowanie użytkownika
-     - packageButtoms.inc.php -> ładowanie pakietów użytkownika
-     - packageStock.inc.php -> ładowanie słowek do edycji z danego pakietu
-     - singup.inc.php -> rejestracja użytkowika
+  - includes -> files executed by forms and performing side tasks
+     - dbh.inc.php -> database connection
+     - login.inc.php -> user login
+     - logout.inc.php -> user logout
+     - packageButtoms.inc.php -> loading user packages
+     - packageStock.inc.php -> loading words for editing from a given package
+     - singup.inc.php -> user registration
 
-   - js -> pliki js
-      - errors -> folder kontroli błędów
-        - errors.err.js -> kontrala błędów przy rejestracji i logowaniu    
-      - addElem.js -> dodawanie kolejnego pola do wspisywania słowa przy edycji pakietu 
-      - checkPassword.js -> sprawdzanie poprawności hasła
+   - js -> js files
+      - errors -> error control folder
+        - errors.err.js -> counter for registration and login errors
+      - addElem.js -> adding another field to enter a word when editing a package
+      - checkPassword.js -> password validation
 
-  - paction -> akcje pakietów (dodawanie, usuwanie i aktualizowanie słówek w bazie)
-     - scripts -> skrypty aktualizujące dane w bazie
-       - widpackage.pa.scr.php -> skrypt do wpisywanie do bazy nowego pakietu
-       - woidpackage.pa.scr.php -> skrypt do aktualizowania pakietu
-     - pAdd.pa.php -> skrypt do edycji pakietu
-     - pDelete.pa.php -> skrypt do usuwania pakietu
+  - paction -> package actions (adding, removing and updating words in the database)
+     - scripts -> scripts updating data in the database
+       - widpackage.pa.scr.php -> script for entering a new package into the database
+       - woidpackage.pa.scr.php -> script to update the package
+     - pAdd.pa.php -> package editing script
+     - pDelete.pa.php -> package removal script
 
-  - footer.php -> stopka witryny
-  - game.php -> skrypt js i php zawierającego aplikację do fiszek 
-  - header.php -> nagłówek strony
-  - index.php -> główna strona z elementami potrzebnymi do logowania
-  - packageEdition.php -> wyswietla stronę z formularzem do edycji pakietu
-  - singup.php -> strona do rejestracji użytkowików
-  - userpanel.php -> wyświetla pakiety danego użytkownika i jego profil
-
-##############################################################################################
+  - footer.php -> site footer
+  - game.php -> js and php script containing the flashcard application
+  - header.php -> page header
+  - index.php -> main page with elements needed for login
+  - packageEdition.php -> displays the page with the form for editing the package
+  - singup.php -> user registration page
+  - userpanel.php -> displays packages of the given user and his profile
